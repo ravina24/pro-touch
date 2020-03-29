@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div> className="App">
+  <div className="App">
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
@@ -457,7 +457,7 @@ function App() {
       </div>
     </div>
   </footer>
-    </div>
+  </div>
   );
 }
 
