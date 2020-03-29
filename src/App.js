@@ -22,6 +22,10 @@ function App() {
     {
       title: 'Fireplace',
       image: 'https://tinyurl.com/r5jl7no'
+    },
+    {
+      title: 'Renovation',
+      image: 'https://tinyurl.com/vehxv9o'
     }
   ];
 
@@ -48,6 +52,11 @@ function App() {
       caption: 'Including building over old fireplaces',
       image: 'fa fa-fire fa-stack-1x fa-inverse'
     },
+    {
+      title: 'Renovation',
+      caption: 'We do all kinds of renovation',
+      image: 'fa fa-home fa-stack-1x fa-inverse'
+    }
   ];
 
   return (

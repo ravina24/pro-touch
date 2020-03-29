@@ -13,7 +13,7 @@ export default ({services}) => {
           <div className="row text-center">
           {
             services && services.map(({title, caption, image}, index) => 
-            <div className="col-md-3">
+            <div className="col-md-4">
               <span className="fa-stack fa-4x">
                 <i className="fa fa-circle fa-stack-2x text-primary"></i>
                 <i className={image}></i>
