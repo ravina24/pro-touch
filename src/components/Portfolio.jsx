@@ -20,7 +20,7 @@ export default ({portfolioLinks}) => {
                       small={image}
                       medium={image}
                       large={image}
-                      alt="Hello World!"
+                      alt=""
                     />
                 <div className="portfolio-caption">
                     <h4>{title}</h4>
