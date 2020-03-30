@@ -3,7 +3,7 @@ import React from 'react';
 export default class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { message: '', name: 'Name', email: 'email@example.com', phone: '6041234567' };
+        this.state = { message: '', name: '', email: '', phone: '' };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
       }
@@ -28,7 +28,7 @@ export default class Contact extends React.Component {
          window.emailjs.send(service_id, template_id, template_params).then(res => {
              alert("Message Sent!");
          }).catch(e => {
-             console.log("There was an error");
+             console.log("There was an error", e);
          });    
       }
 
@@ -45,25 +45,25 @@ export default class Contact extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                    <form id="contactForm" name="sentMessage" novalidate="noValidate">
+                    <form id="contactForm" name="sentMessage" noValidate="noValidate">
                         <div className="row">
                         <div className="col-md-6">
                             <div className="form-group">
-                            <input className="form-control" id="name" name="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." onChange={this.handleChange} value={this.state.name}></input>
+                            <input className="form-control" id="name" name="name" type="text" placeholder="John Smith" required="required" data-validation-required-message="Please enter your name." onChange={this.handleChange} value={this.state.name}></input>
                             <p className="help-block text-danger"></p>
                             </div>
                             <div className="form-group">
-                            <input className="form-control" id="email" name="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." onChange={this.handleChange} value={this.state.email}></input>
+                            <input className="form-control" id="email" name="email" type="email" placeholder="johnsmith@gmail.com" required="required" data-validation-required-message="Please enter your email address." onChange={this.handleChange} value={this.state.email}></input>
                             <p className="help-block text-danger"></p>
                             </div>
                             <div className="form-group">
-                            <input className="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number." onChange={this.handleChange} value={this.state.phone}></input>
+                            <input className="form-control" id="phone" name="phone" type="tel" placeholder="778-123-4567" required="required" data-validation-required-message="Please enter your phone number." onChange={this.handleChange} value={this.state.phone}></input>
                             <p className="help-block text-danger"></p>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="form-group">
-                            <textarea className="form-control" id="message" name="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." onChange={this.handleChange} value={this.state.message}></textarea>
+                            <textarea className="form-control" id="message" name="message" placeholder="Enter Message" required="required" data-validation-required-message="Please enter a message." onChange={this.handleChange} value={this.state.message}></textarea>
                             <p className="help-block text-danger"></p>
                             </div>
                         </div>
