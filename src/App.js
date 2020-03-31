@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
@@ -69,11 +68,23 @@ function App() {
   <div className="App">
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <p className="navbar-brand">778-683-7556 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SURREY, BC</p>
+      {/* <a class="navbar-brand js-scroll-trigger" href="#top">Home</a> */}
+      {/* <p className="navbar-brand">778-683-7556 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SURREY, BC</p> */}
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
       </button>
+
+      {/* <button>
+          Menu
+        </button>
+        
+        <div className="menu">
+          <button> Menu item 1 </button>
+          <button> Menu item 2 </button>
+          <button> Menu item 3 </button>
+        </div> */}
+      
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
           <li className="nav-item">
@@ -93,9 +104,13 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        {/* <div class="intro-lead-in">Surrey, BC</div> */}
+      <div class="intro-lead-in">778-683-7556</div>
+        <div class="intro-lead-in">Surrey, BC</div>
+        <div></div>
         <div className="intro-heading text-uppercase">Pro-Touch Tiling</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        {/* <div class="intro-lead-in">778-683-7556</div>
+        <div class="intro-lead-in">Surrey, BC</div> */}
       </div>
     </div>
   </header>
