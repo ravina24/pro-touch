@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pro-touch/static/css/main.193ae6cf.chunk.css",
+    "main.js": "/pro-touch/static/js/main.afb4dfb7.chunk.js",
+    "main.js.map": "/pro-touch/static/js/main.afb4dfb7.chunk.js.map",
+    "runtime-main.js": "/pro-touch/static/js/runtime-main.f22a8bb6.js",
+    "runtime-main.js.map": "/pro-touch/static/js/runtime-main.f22a8bb6.js.map",
+    "static/js/2.180697ea.chunk.js": "/pro-touch/static/js/2.180697ea.chunk.js",
+    "static/js/2.180697ea.chunk.js.map": "/pro-touch/static/js/2.180697ea.chunk.js.map",
+    "index.html": "/pro-touch/index.html",
+    "precache-manifest.6f15406486795519de0c34c84e3f901e.js": "/pro-touch/precache-manifest.6f15406486795519de0c34c84e3f901e.js",
+    "service-worker.js": "/pro-touch/service-worker.js",
+    "static/css/main.193ae6cf.chunk.css.map": "/pro-touch/static/css/main.193ae6cf.chunk.css.map",
+    "static/js/2.180697ea.chunk.js.LICENSE.txt": "/pro-touch/static/js/2.180697ea.chunk.js.LICENSE.txt",
+    "static/media/agency.min.css": "/pro-touch/static/media/map-image.f40ed5b1.png",
+    "static/media/logo.svg": "/pro-touch/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f22a8bb6.js",
+    "static/js/2.180697ea.chunk.js",
+    "static/css/main.193ae6cf.chunk.css",
+    "static/js/main.afb4dfb7.chunk.js"
+  ]
+}
