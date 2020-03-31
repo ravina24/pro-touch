@@ -16,17 +16,24 @@ export default class Contact extends React.Component {
     }
 
       handleSubmit (event) {
+        event.preventDefault();
         var template_params = {
-            "name": "name_value",
-            "message": "message_value",
-            "phone": "phone_value",
-            "email": "email_value"
+            "name": this.state.name,
+            "message": this.state.message,
+            "phone": this.state.phone,
+            "email": this.state.email
          }
          
          var service_id = "default_service";
          var template_id = "template_M5OycbLq";
          window.emailjs.send(service_id, template_id, template_params).then(res => {
              alert("Message Sent!");
+             this.setState({
+                name: '',
+                email: '',
+                phone: '',
+                message: ''
+             });
          }).catch(e => {
              console.log("There was an error", e);
          });    
