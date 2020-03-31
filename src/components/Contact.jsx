@@ -47,7 +47,7 @@ export default class Contact extends React.Component {
                 <div className="row">
                     <div className="col-lg-12 text-center">
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
-                    <h3 className="section-subheading text-muted">Fill in the form below to contact us through email</h3>
+                    <h3 className="section-subheading text-muted" style={{color: "white"}}>Fill in the form below to contact us through email</h3>
                     </div>
                 </div>
                 <div className="row">
