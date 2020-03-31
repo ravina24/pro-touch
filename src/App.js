@@ -57,6 +57,11 @@ function App() {
       title: 'Renovation',
       caption: 'We do all kinds of renovation',
       image: 'fa fa-fire fa-stack-1x fa-inverse'
+    },
+    {
+      title: 'And Much More!',
+      caption: 'Contact us to find out more',
+      image: 'fa fa-wrench fa-stack-1x fa-inverse'
     }
   ];
 
@@ -64,7 +69,7 @@ function App() {
   <div className="App">
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <p className="navbar-brand">778-683-7556</p>
+      <p className="navbar-brand">778-683-7556 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SURREY, BC</p>
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
@@ -88,6 +93,7 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
+        {/* <div class="intro-lead-in">Surrey, BC</div> */}
         <div className="intro-heading text-uppercase">Pro-Touch Tiling</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
