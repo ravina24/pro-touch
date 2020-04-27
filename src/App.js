@@ -76,13 +76,7 @@ function App() {
   <div className="App">
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      {/* <a class="navbar-brand js-scroll-trigger" href="#top">Home</a> */}
       <p className="navbar-brand">778-683-7556</p> 
-      {/* <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i className="fa fa-bars"></i>
-      </button> */}
-
       <div className="navbar-toggler navbar-toggler-right">
         <Dropdown>
           <Dropdown.Toggle id="dropdown-basic">
