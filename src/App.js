@@ -1,4 +1,6 @@
 import React from 'react';
+import Dropdown from 'react-bootstrap/Dropdown'
+
 import './App.css';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
@@ -76,13 +78,31 @@ function App() {
     <div className="container">
       {/* <a class="navbar-brand js-scroll-trigger" href="#top">Home</a> */}
       <p className="navbar-brand">778-683-7556</p> 
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      {/* <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
-      </button>
+      </button> */}
+
+      <div className="navbar-toggler navbar-toggler-right">
+        <Dropdown>
+          <Dropdown.Toggle id="dropdown-basic">
+            Menu
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu>
+            <Dropdown.Item href="#top">Home</Dropdown.Item>
+            <Dropdown.Item href="#services">Services</Dropdown.Item>
+            <Dropdown.Item href="#portfolio">Gallery</Dropdown.Item>
+            <Dropdown.Item href="#contact">Contact</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
       
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
+        <li className="nav-item">
+            <a className="nav-link js-scroll-trigger" href="#top">Home</a>
+          </li>
           <li className="nav-item">
             <a className="nav-link js-scroll-trigger" href="#services">Services</a>
           </li>
