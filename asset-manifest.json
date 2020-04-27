@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/pro-touch/static/css/main.193ae6cf.chunk.css",
-    "main.js": "/pro-touch/static/js/main.afb4dfb7.chunk.js",
-    "main.js.map": "/pro-touch/static/js/main.afb4dfb7.chunk.js.map",
+    "main.css": "/pro-touch/static/css/main.a4b120ef.chunk.css",
+    "main.js": "/pro-touch/static/js/main.f3915a5a.chunk.js",
+    "main.js.map": "/pro-touch/static/js/main.f3915a5a.chunk.js.map",
     "runtime-main.js": "/pro-touch/static/js/runtime-main.f22a8bb6.js",
     "runtime-main.js.map": "/pro-touch/static/js/runtime-main.f22a8bb6.js.map",
-    "static/js/2.180697ea.chunk.js": "/pro-touch/static/js/2.180697ea.chunk.js",
-    "static/js/2.180697ea.chunk.js.map": "/pro-touch/static/js/2.180697ea.chunk.js.map",
+    "static/js/2.038fb0fe.chunk.js": "/pro-touch/static/js/2.038fb0fe.chunk.js",
+    "static/js/2.038fb0fe.chunk.js.map": "/pro-touch/static/js/2.038fb0fe.chunk.js.map",
     "index.html": "/pro-touch/index.html",
-    "precache-manifest.5291c93a52198ec5154a264925c45fd4.js": "/pro-touch/precache-manifest.5291c93a52198ec5154a264925c45fd4.js",
+    "precache-manifest.c68356c285ed01988f8248c7d98872a9.js": "/pro-touch/precache-manifest.c68356c285ed01988f8248c7d98872a9.js",
     "service-worker.js": "/pro-touch/service-worker.js",
-    "static/css/main.193ae6cf.chunk.css.map": "/pro-touch/static/css/main.193ae6cf.chunk.css.map",
-    "static/js/2.180697ea.chunk.js.LICENSE.txt": "/pro-touch/static/js/2.180697ea.chunk.js.LICENSE.txt",
+    "static/css/main.a4b120ef.chunk.css.map": "/pro-touch/static/css/main.a4b120ef.chunk.css.map",
+    "static/js/2.038fb0fe.chunk.js.LICENSE.txt": "/pro-touch/static/js/2.038fb0fe.chunk.js.LICENSE.txt",
     "static/media/agency.min.css": "/pro-touch/static/media/map-image.f40ed5b1.png",
-    "static/media/logo.svg": "/pro-touch/static/media/logo.5d5d9eef.svg"
+    "static/media/backsplash.jpeg": "/pro-touch/static/media/backsplash.7c51e568.jpeg",
+    "static/media/fireplace.jpg": "/pro-touch/static/media/fireplace.1b5f3a1e.jpg",
+    "static/media/renovation.jpg": "/pro-touch/static/media/renovation.3810a9ac.jpg",
+    "static/media/tub.jpg": "/pro-touch/static/media/tub.e4f0f2eb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f22a8bb6.js",
-    "static/js/2.180697ea.chunk.js",
-    "static/css/main.193ae6cf.chunk.css",
-    "static/js/main.afb4dfb7.chunk.js"
+    "static/js/2.038fb0fe.chunk.js",
+    "static/css/main.a4b120ef.chunk.css",
+    "static/js/main.f3915a5a.chunk.js"
   ]
 }
