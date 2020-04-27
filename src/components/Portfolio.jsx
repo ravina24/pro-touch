@@ -14,7 +14,7 @@ export default ({portfolioLinks}) => {
       </div>
       <div className="row">
         {
-            portfolioLinks && portfolioLinks.map(({title, caption, image}, index) => 
+            portfolioLinks && portfolioLinks.map(({title, image}, index) => 
                 <div className="col-md-3 col-sm-6 portfolio-item">
                     <ModalImage id='portfolioModal'
                       small={image}

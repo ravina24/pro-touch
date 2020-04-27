@@ -4,28 +4,34 @@ import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Contact from './components/Contact';
 
+import floor from './assets/img/portfolio/floor.jpg';
+import backsplash from './assets/img/portfolio/backsplash.jpeg';
+import fireplace from './assets/img/portfolio/fireplace.jpg';
+import renovation from './assets/img/portfolio/renovation.jpg';
+import tub from './assets/img/portfolio/tub.jpg';
+
 function App() {
 
   const portfolioLinks = [
     {
       title: 'Backsplash',
-      image: "https://tinyurl.com/u7657y6"
+      image: backsplash
     },
     {
-      title: 'Floor',
-      image: 'https://tinyurl.com/to7kk5l'
+      title: 'Floor', 
+      image: floor
     },
     {
       title: 'Bathtub',
-      image: 'https://tinyurl.com/tvjv2kq'
+      image: tub
     },
     {
       title: 'Fireplace',
-      image: 'https://tinyurl.com/r5jl7no'
+      image: fireplace
     },
     {
       title: 'Renovation',
-      image: 'https://tinyurl.com/vehxv9o'
+      image: renovation
     }
   ];
 
@@ -69,21 +75,11 @@ function App() {
   <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
       {/* <a class="navbar-brand js-scroll-trigger" href="#top">Home</a> */}
-      {/* <p className="navbar-brand">778-683-7556 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SURREY, BC</p> */}
+      <p className="navbar-brand">778-683-7556</p> 
       <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i className="fa fa-bars"></i>
       </button>
-
-      {/* <button>
-          Menu
-        </button>
-        
-        <div className="menu">
-          <button> Menu item 1 </button>
-          <button> Menu item 2 </button>
-          <button> Menu item 3 </button>
-        </div> */}
       
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav text-uppercase ml-auto">
@@ -104,13 +100,8 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-      <div class="intro-lead-in">778-683-7556</div>
-        <div class="intro-lead-in">Surrey, BC</div>
-        <div></div>
         <div className="intro-heading text-uppercase">Pro-Touch Tiling</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
-        {/* <div class="intro-lead-in">778-683-7556</div>
-        <div class="intro-lead-in">Surrey, BC</div> */}
+        <h2 className="section-heading text-uppercase">Surrey, BC</h2>
       </div>
     </div>
   </header>
